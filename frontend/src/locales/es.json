@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "single": "Chequeo Único",
+    "bulk": "Análisis en Masa",
+    "email": "Brecha de Email",
+    "generator": "Generador",
+    "quiz": "Cuestionario",
+    "history": "Historial"
+  },
+  "header": {
+    "title": "BreachGuard",
+    "subtitle": "Auditoría de contraseñas offline y online de grado empresarial"
+  },
+  "hero": {
+    "title": "Auditoría Offline de Contraseñas",
+    "desc": "Auditoría de grado empresarial. Comprobamos tus credenciales contra 10 mil millones de fugas conocidas sin que nunca salgan de tu navegador."
+  }
+}

@@ -1,0 +1,44 @@
+.rc-container {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  padding: var(--stack-lg);
+  border-radius: var(--rounded-sm);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--stack-md);
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+.rc-danger {
+  border-left: 4px solid var(--danger-color, #ffb4ab);
+}
+
+.rc-safe {
+  border-left: 4px solid var(--success-color, #10b981);
+}
+
+.rc-icon {
+  font-size: 24px;
+}
+
+.rc-danger .rc-icon, .rc-danger .rc-title {
+  color: var(--danger-color, #ffb4ab);
+}
+
+.rc-safe .rc-icon, .rc-safe .rc-title {
+  color: var(--success-color, #10b981);
+}
+
+.rc-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0;
+}
+
+.rc-desc {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-secondary);
+  margin: 4px 0 0 0;
+}

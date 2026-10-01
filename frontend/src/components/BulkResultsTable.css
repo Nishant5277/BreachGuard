@@ -1,0 +1,116 @@
+.table-container {
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table-header-info {
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.table-header-info h3 {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+}
+
+.table-wrapper {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.bulk-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+
+.bulk-table th,
+.brt-td {
+  padding: 12px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.brt-pass {
+  font-family: var(--font-mono, monospace);
+  font-weight: 500;
+  max-width: 200px;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+.bulk-table th {
+  background: var(--surface-variant);
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  position: sticky;
+  top: 0;
+}
+
+.results-table tr:last-child td {
+  border-bottom: none;
+}
+
+.results-table tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.col-password {
+  font-family: var(--font-family);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.05em;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: var(--rounded-sm);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.badge-danger {
+  background: rgba(239, 68, 68, 0.15);
+  color: #fca5a5;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.badge-safe {
+  background: rgba(16, 185, 129, 0.15);
+  color: #6ee7b7;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.bulk-results {
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-lg);
+  animation: fadeIn 0.4s ease-out;
+}
+
+.col-strength {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: capitalize;
+}
+
+.strength-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.strength-0, .strength-1 { background: var(--danger-color); }
+.strength-2 { background: var(--warning-color); }
+.strength-3 { background: #3b82f6; }
+.strength-4 { background: var(--success-color); }

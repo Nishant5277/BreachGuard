@@ -1,0 +1,46 @@
+.bulk-uploader-container {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.drag-area {
+  border: 2px dashed var(--outline-variant);
+  border-radius: var(--rounded-md);
+  padding: var(--stack-xl) var(--stack-lg);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: var(--surface-color);
+}
+
+.drag-area:hover, .drag-area.active {
+  background: var(--surface-variant);
+  border-color: var(--accent-primary);
+}
+
+.upload-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.upload-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--stack-sm);
+  line-height: 28px;
+}
+
+.upload-subtext {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-secondary);
+}
+
+.upload-error {
+  margin-top: 1rem;
+  color: var(--danger-color);
+  font-size: 0.9rem;
+  text-align: center;
+}

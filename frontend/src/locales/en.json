@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "single": "Single Check",
+    "bulk": "Bulk Analysis",
+    "email": "Email Breach",
+    "generator": "Generator",
+    "quiz": "Quiz",
+    "history": "History"
+  },
+  "header": {
+    "title": "BreachGuard",
+    "subtitle": "Enterprise-grade offline & online password auditing"
+  },
+  "hero": {
+    "title": "Offline Password Audit",
+    "desc": "Enterprise-grade offline & online password auditing. We check your credentials against 10 billion known leaks without them ever leaving your browser."
+  }
+}
